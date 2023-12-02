@@ -1,0 +1,44 @@
+:root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+
+
+
+  // Fonts
+  --base-font-size: 1.23rem;
+
+  --font-size-small: calc(var(--base-font-size) * 0.8);
+  --font-size-normal: var(--base-font-size);
+  --font-size-medium: calc(var(--base-font-size) * 1.2);
+  --font-size-large: calc(var(--base-font-size) * 1.5);
+  --font-size-xlarge: calc(var(--base-font-size) * 1.8);
+
+  // Padding
+  --base-padding: 1rem;
+
+  --padding-small: calc(var(--base-padding) * 0.5);
+  --padding-normal: var(--base-padding);
+  --padding-medium: calc(var(--base-padding) * 1.5);
+  --padding-large: calc(var(--base-padding) * 2);
+  --padding-xlarge: calc(var(--base-padding) * 3);
+
+  // Margin
+  --base-margin: 1rem;
+
+  --margin-small: calc(var(--base-margin) * 0.5);
+  --margin-normal: var(--base-margin);
+  --margin-medium: calc(var(--base-margin) * 1.5);
+  --margin-large: calc(var(--base-margin) * 2);
+  --margin-xlarge: calc(var(--base-margin) * 3);
+
+}
+[data-theme='dark'] {
+  --dark-color: #151514;
+  --light-color: #ffffff;
+  --primary-color: #E5D6CE;
+  --secondary-color: #62271D;
+  --accent-color-one: #FFD3BB;
+
+}
