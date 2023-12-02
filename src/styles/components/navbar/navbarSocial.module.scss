@@ -1,0 +1,27 @@
+.navbar__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: var(--padding-xs);
+
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+    li {
+      margin-left: var(--margin-small);
+      font-size: var(--font-size-normal);
+      font-weight: bold;
+      color: var(--primary-color);
+      cursor: pointer;
+    }
+
+    svg {
+      flex-shrink: 0;
+      width: var(--font-size-small);
+    }
+  }
+ 
+}

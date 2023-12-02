@@ -3,9 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { faSlack, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import GithubStats from './GithubStats';
+import styles from '@/styles/components/navbar/navbarSocial.module.scss';
 export default function NavbarSocial() {
   return (
-    <div>
+    <div className={styles.navbar__social}>
       <GithubStats />
       <ul>
         <li><FontAwesomeIcon icon={faTwitter} /></li>
