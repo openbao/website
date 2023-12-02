@@ -1,0 +1,33 @@
+.navbar__social__github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: var(--padding-xs);
+}
+
+.navbar__social__github__star {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: var(--secondary-color);
+  padding: var(--padding-xs) var(--padding-small);
+
+  p {
+    font-size: var(--font-size-xs);
+  }
+  svg {
+    margin-right: var(--margin-xs);
+    flex-shrink: 0;
+    width: var(--font-size-small);
+  }
+}
+
+.navbar__social__github__stats {
+  padding: var(--padding-xs) var(--padding-small);
+  background-color: var(--dark-color);
+  border: solid 1px var(--secondary-color);
+  p {
+    font-size: var(--font-size-xs);
+  }
+}

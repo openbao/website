@@ -1,6 +1,7 @@
 import React from 'react'
-import styles from '@/styles/components/navbar.module.scss'
+import styles from '@/styles/components/navbar/navbar.module.scss'
 import NavbarItems from './NavbarItems'
+import NavbarSocial from './NavbarSocial'
 
 export default function Navbar() {
 
@@ -24,6 +25,9 @@ export default function Navbar() {
       </div>
       <div className={styles.navbar__menu}>
         <NavbarItems />
+      </div>
+      <div className={styles.navbar__social}>
+        <NavbarSocial />
       </div>
     </nav>
   )

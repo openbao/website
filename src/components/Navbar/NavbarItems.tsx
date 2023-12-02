@@ -19,7 +19,7 @@ export default function NavbarItems() {
     <ul>
       {
         navbarItems.map((item: NavbarItem) => (
-          <li>{item.name}</li>
+          <li key={item.name}>{item.name}</li>
         ))
       }
     </ul>

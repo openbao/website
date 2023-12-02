@@ -9,6 +9,7 @@
   // Fonts
   --base-font-size: 1.23rem;
 
+  --font-size-xs: calc(var(--base-font-size) * 0.6);
   --font-size-small: calc(var(--base-font-size) * 0.8);
   --font-size-normal: var(--base-font-size);
   --font-size-medium: calc(var(--base-font-size) * 1.2);
@@ -18,6 +19,7 @@
   // Padding
   --base-padding: 1rem;
 
+  --padding-xs: calc(var(--base-padding) * 0.3);
   --padding-small: calc(var(--base-padding) * 0.5);
   --padding-normal: var(--base-padding);
   --padding-medium: calc(var(--base-padding) * 1.5);
@@ -27,6 +29,7 @@
   // Margin
   --base-margin: 1rem;
 
+  --margin-xs: calc(var(--base-margin) * 0.3);
   --margin-small: calc(var(--base-margin) * 0.5);
   --margin-normal: var(--base-margin);
   --margin-medium: calc(var(--base-margin) * 1.5);
