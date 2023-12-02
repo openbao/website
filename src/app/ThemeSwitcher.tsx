@@ -3,6 +3,8 @@ import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import Icon from "@/components/Icon";
+import SwitchToLight from "@/components/SwitchToLightIcon";
+import SwitchToDark from "@/components/SwitchToDarkIcon";
 
 
 const ThemeSwitcher = () => {
@@ -14,14 +16,16 @@ const ThemeSwitcher = () => {
   if(!mounted) {
     return (
       <div>
-        <Icon icon={faMoon} style={{ visibility: "hidden" }}/>
+        <SwitchToLight />
+        <SwitchToDark />
       </div>
     )
   }
 
   return (
     <div onClick={() => theme === 'light' ? setTheme('dark') : setTheme('light')}>
-      { theme === 'light' ? <Icon icon={faMoon} /> : <Icon icon={faSun} /> }
+      <SwitchToLight />
+      <SwitchToDark />
     </div>
   )
   };
