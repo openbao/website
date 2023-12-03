@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Icon from '@/components/Icon';
+import Icon from '@/components/Navbar/DarkmodeToggle/Icon';
 
 import { faSlack, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import GithubStats from './GithubStats';
