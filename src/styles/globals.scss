@@ -42,3 +42,12 @@ h5 {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+
+.switch-to-light {
+  display: var(--show-in-dark-mode);
+}
+
+.switch-to-dark {
+  display: var(--show-in-light-mode)
+}

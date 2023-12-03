@@ -1,8 +1,10 @@
 "use client"
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import Icon from "@/components/Icon";
+import SwitchToLight from "@/components/SwitchToLightIcon";
+import SwitchToDark from "@/components/SwitchToDarkIcon";
 
 
 const ThemeSwitcher = () => {
@@ -10,13 +12,20 @@ const ThemeSwitcher = () => {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => setMounted(true), []);
+
   if(!mounted) {
-    return null
+    return (
+      <div>
+        <SwitchToLight />
+        <SwitchToDark />
+      </div>
+    )
   }
 
   return (
     <div onClick={() => theme === 'light' ? setTheme('dark') : setTheme('light')}>
-      { theme === 'light' ? <FontAwesomeIcon icon={faMoon} /> : <FontAwesomeIcon icon={faSun} /> }
+      <SwitchToLight />
+      <SwitchToDark />
     </div>
   )
   };
