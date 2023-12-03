@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Icon from '@/components/Icon';
+
 import { faSlack, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import GithubStats from './GithubStats';
 import styles from '@/styles/components/navbar/navbarSocial.module.scss';
@@ -17,4 +18,3 @@ export default function NavbarSocial() {
     </div>
   )
 }
-

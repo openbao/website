@@ -6,12 +6,12 @@ import Icon from "@/components/Icon";
 import SwitchToLight from "@/components/SwitchToLightIcon";
 import SwitchToDark from "@/components/SwitchToDarkIcon";
 
-
 const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => setMounted(true), []);
+<<<<<<< HEAD
 
   if(!mounted) {
     return (
@@ -22,6 +22,10 @@ const ThemeSwitcher = () => {
     )
   }
 
+=======
+  if(!mounted) return null
+  
+>>>>>>> temp
   return (
     <div onClick={() => theme === 'light' ? setTheme('dark') : setTheme('light')}>
       <SwitchToLight />
@@ -30,5 +34,3 @@ const ThemeSwitcher = () => {
   )
   };
   export default ThemeSwitcher;
-
-
