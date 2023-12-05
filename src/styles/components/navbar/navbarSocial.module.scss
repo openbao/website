@@ -11,8 +11,8 @@
     list-style: none;
     
     li {
-      margin-left: var(--margin-small);
-      font-size: var(--font-size-normal);
+      margin-left: var(--margin-sm);
+      font-size: var(--font-size-base);
       font-weight: bold;
       color: var(--primary-color);
       cursor: pointer;
@@ -20,7 +20,7 @@
 
     svg {
       flex-shrink: 0;
-      width: var(--font-size-small);
+      width: var(--font-size-sm);
     }
   }
  

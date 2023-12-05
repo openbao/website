@@ -4,27 +4,15 @@ import NavbarItems from './NavbarItems'
 import NavbarSocial from './NavbarSocial'
 
 export default function Navbar() {
-
-  interface NavbarItem {
-    name: string
-    link: string
-  }
-
-  const navbarItems: NavbarItem[] = [
-    { name: 'Manifesto', link: '/' },
-    { name: 'Supporters', link: '/' },
-    { name: 'FAQs', link: '/' },
-    { name: 'Roadmap', link: '/' },
-    { name: 'Docs', link: '/' },
-  ]
-
   return (
     <nav className={styles.navbar}>
-      <div className={styles.navbar__logo}>
-        <span>OpenBao</span>
-      </div>
-      <div className={styles.navbar__menu}>
-        <NavbarItems />
+      <div className={styles.navbar__navigation__wrapper}>
+        <div className={styles.navbar__logo}>
+          <span>OpenBao</span>
+        </div>
+        <div className={styles.navbar__menu}>
+          <NavbarItems />
+        </div>
       </div>
       <div className={styles.navbar__social}>
         <NavbarSocial />

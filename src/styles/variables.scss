@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400;1,9..40,500;1,9..40,700&display=swap');
+
+
+
 :root {
   --background: white;
   --text-primary: black;
@@ -12,31 +16,41 @@
   --base-font-size: 1.23rem;
 
   --font-size-xs: calc(var(--base-font-size) * 0.6);
-  --font-size-small: calc(var(--base-font-size) * 0.8);
-  --font-size-normal: var(--base-font-size);
-  --font-size-medium: calc(var(--base-font-size) * 1.2);
-  --font-size-large: calc(var(--base-font-size) * 1.5);
-  --font-size-xlarge: calc(var(--base-font-size) * 1.8);
+  --font-size-sm: calc(var(--base-font-size) * 0.8);
+  --font-size-base: var(--base-font-size);
+  --font-size-md: calc(var(--base-font-size) * 1.2);
+  --font-size-lg: calc(var(--base-font-size) * 1.5);
+  --font-size-xl: calc(var(--base-font-size) * 2.4);
+  --font-size-xxl: calc(var(--base-font-size) * 3);
+
+  --font-family-one: 'DM Sans', sans-serif;
 
   // Padding
   --base-padding: 1rem;
 
   --padding-xs: calc(var(--base-padding) * 0.3);
-  --padding-small: calc(var(--base-padding) * 0.5);
-  --padding-normal: var(--base-padding);
-  --padding-medium: calc(var(--base-padding) * 1.5);
-  --padding-large: calc(var(--base-padding) * 2);
-  --padding-xlarge: calc(var(--base-padding) * 3);
+  --padding-sm: calc(var(--base-padding) * 0.5);
+  --padding-base: var(--base-padding);
+  --padding-md: calc(var(--base-padding) * 1.5);
+  --padding-lg: calc(var(--base-padding) * 2);
+  --padding-xl: calc(var(--base-padding) * 3);
 
   // Margin
   --base-margin: 1rem;
 
   --margin-xs: calc(var(--base-margin) * 0.3);
-  --margin-small: calc(var(--base-margin) * 0.5);
-  --margin-normal: var(--base-margin);
-  --margin-medium: calc(var(--base-margin) * 1.5);
-  --margin-large: calc(var(--base-margin) * 2);
-  --margin-xlarge: calc(var(--base-margin) * 3);
+  --margin-sm: calc(var(--base-margin) * 0.5);
+  --margin-base: var(--base-margin);
+  --margin-md: calc(var(--base-margin) * 1.5);
+  --margin-lg: calc(var(--base-margin) * 2);
+  --margin-xl: calc(var(--base-margin) * 3);
+
+  // Responsive
+  --xl--container--width: 1600px;
+  --lg--container--width: 1200px;
+  --base--container--width: 900px;
+  --sm--container--width: 600px;
+  --xs--container--width: 300px;
 
 }
 [data-theme='dark'] {

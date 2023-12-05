@@ -1,0 +1,34 @@
+
+$xl: var(--xl--container--width);
+$lg: var(--lg--container--width);
+$md: var(--md--container--width);
+$sm: var(--sm--container--width);
+$xs: var(--xs--container--width);
+
+@mixin container($max-width) {
+  max-width: $max-width;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  @include container($xl);
+
+  @media (max-width: #{$xl - 1}) {
+    @include container($lg);
+  }
+
+  @media (max-width: #{$lg - 1}) {
+    @include container($md);
+  }
+
+  @media (max-width: #{$md - 1}) {
+    @include container($sm);
+  }
+
+  @media (max-width: #{$sm - 1}) {
+    @include container($xs);
+  }
+}
+

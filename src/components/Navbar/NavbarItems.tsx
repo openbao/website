@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function NavbarItems() {
-
   interface NavbarItem {
     name: string
     link: string
@@ -14,14 +13,12 @@ export default function NavbarItems() {
     { name: 'Roadmap', link: '/' },
     { name: 'Docs', link: '/' },
   ]
-  
+
   return (
     <ul>
-      {
-        navbarItems.map((item: NavbarItem) => (
-          <li key={item.name}>{item.name}</li>
-        ))
-      }
+      {navbarItems.map((item: NavbarItem) => (
+        <li key={item.name}>{item.name}</li>
+      ))}
     </ul>
   )
 }
