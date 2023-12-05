@@ -1,9 +1,16 @@
-import styles from './page.module.css'
-import ThemeSwitcher from './ThemeSwitcher'
+import HeroSection from '@/components/HeroSection/HeroSection'
+import Navbar from '@/components/Navbar/Navbar'
+import style from '@/styles/components/layout/layout.module.scss'
+
 export default function Home() {
   return (
-   <div className="container">
-    <ThemeSwitcher />
-   </div>
+    <>
+      <div className={style.first__gradient}>
+        <Navbar />
+        <div className="container">
+          <HeroSection />
+        </div>
+      </div>
+    </>
   )
 }

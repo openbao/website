@@ -15,7 +15,6 @@ export default function Navbar() {
         </div>
       </div>
       <div className={styles.navbar__social}>
-        ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
         <NavbarSocial />
       </div>
     </nav>

@@ -12,7 +12,7 @@
   align-items: center;
   background-color: var(--secondary-color);
   border: solid 1px var(--secondary-color);
-  padding: var(--padding-xs) var(--padding-small);
+  padding: var(--padding-xs) var(--padding-sm);
 
   p {
     font-size: var(--font-size-xs);
@@ -20,12 +20,12 @@
   svg {
     margin-right: var(--margin-xs);
     flex-shrink: 0;
-    width: var(--font-size-small);
+    width: var(--font-size-sm);
   }
 }
 
 .navbar__social__github__stats {
-  padding: var(--padding-xs) var(--padding-small);
+  padding: var(--padding-xs) var(--padding-sm);
   background-color: var(--dark-color);
   border: solid 1px var(--secondary-color);
   p {
