@@ -20,7 +20,8 @@
   --font-size-base: var(--base-font-size);
   --font-size-md: calc(var(--base-font-size) * 1.2);
   --font-size-lg: calc(var(--base-font-size) * 1.5);
-  --font-size-xlg: calc(var(--base-font-size) * 1.8);
+  --font-size-xl: calc(var(--base-font-size) * 2.4);
+  --font-size-xxl: calc(var(--base-font-size) * 3);
 
   --font-family-one: 'DM Sans', sans-serif;
 
@@ -32,7 +33,7 @@
   --padding-base: var(--base-padding);
   --padding-md: calc(var(--base-padding) * 1.5);
   --padding-lg: calc(var(--base-padding) * 2);
-  --padding-xlg: calc(var(--base-padding) * 3);
+  --padding-xl: calc(var(--base-padding) * 3);
 
   // Margin
   --base-margin: 1rem;
@@ -42,7 +43,7 @@
   --margin-base: var(--base-margin);
   --margin-md: calc(var(--base-margin) * 1.5);
   --margin-lg: calc(var(--base-margin) * 2);
-  --margin-xlg: calc(var(--base-margin) * 3);
+  --margin-xl: calc(var(--base-margin) * 3);
 
   // Responsive
   --xl--container--width: 1600px;
