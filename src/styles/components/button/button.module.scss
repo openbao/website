@@ -1,0 +1,61 @@
+
+.btn {
+  font-size: var(--font-size-md);
+  padding: var(--padding-md) var(--padding-md);
+  cursor: pointer;
+  margin: var(--margin-sm);
+}
+
+.btn--primary {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+}
+
+.btn--secondary {
+  background-color: var(--secondary-color);
+  color: var(--color-white);
+  border: solid 1px var(--secondary-color);
+
+  &:hover {
+    background-color: var(--secondary-color-800);
+    color: var(--color-white);
+    border: solid 1px var(--secondary-color-800);
+  }
+}
+
+.btn--outline {
+  background-color: var(--dark-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+
+  &:hover {
+    background-color: var(--dark-color-900);
+    color: var(--color-white);
+    border: solid 1px var(--dark-color-800);
+  }
+}
+
+.btn--xl {
+  padding: calc(var(--padding-xl)) var(--padding-xl);
+  font-size: var(--font-size-xl);
+}
+
+.btn--lg {
+  padding: calc(var(--padding-lg) * .5) var(--padding-lg);
+  font-size: var(--font-size-lg);
+}
+
+.btn--md {
+  padding: calc(var(--padding-md) * .5) var(--padding-md);
+  font-size: var(--font-size-md);
+}
+
+.btn--sm {
+  padding: calc(var(--padding-sm) * .75) var(--padding-sm);
+  font-size: var(--font-size-sm);
+}
+
+.btn--xs {
+  padding: var(--padding-xs) var(--padding-xs);
+  font-size: var(--font-size-xs);
+}

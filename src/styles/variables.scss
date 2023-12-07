@@ -26,7 +26,7 @@
   --font-family-one: 'DM Sans', sans-serif;
 
   // Padding
-  --base-padding: 1rem;
+  --base-padding: 14px;
 
   --padding-xs: calc(var(--base-padding) * 0.3);
   --padding-sm: calc(var(--base-padding) * 0.5);
@@ -34,9 +34,10 @@
   --padding-md: calc(var(--base-padding) * 1.5);
   --padding-lg: calc(var(--base-padding) * 2);
   --padding-xl: calc(var(--base-padding) * 3);
+  --padding-xxl: calc(var(--base-padding) * 6);
 
   // Margin
-  --base-margin: 1rem;
+  --base-margin: 14px;
 
   --margin-xs: calc(var(--base-margin) * 0.3);
   --margin-sm: calc(var(--base-margin) * 0.5);
@@ -44,6 +45,7 @@
   --margin-md: calc(var(--base-margin) * 1.5);
   --margin-lg: calc(var(--base-margin) * 2);
   --margin-xl: calc(var(--base-margin) * 3);
+  --margin-xxl: calc(var(--base-margin) * 6);
 
   // Responsive
   --xl--container--width: 1600px;
@@ -59,6 +61,41 @@
   --primary-color: #E5D6CE;
   --secondary-color: #62271D;
   --accent-color-one: #FFD3BB;
+
+  --dark-color: #151514;
+
+  --dark-color-900: hsl(0, 0%, 10%);   // Darker
+  --dark-color-800: hsl(0, 0%, 20%);
+  --dark-color-700: hsl(0, 0%, 30%);
+  --dark-color-600: hsl(0, 0%, 40%);
+  --dark-color-500: hsl(0, 0%, 50%);   // Base color
+  --dark-color-400: hsl(0, 0%, 60%);
+  --dark-color-300: hsl(0, 0%, 70%);
+  --dark-color-200: hsl(0, 0%, 80%);
+  --dark-color-100: hsl(0, 0%, 90%);   // Lighter
+
+  --primary-color: #E5D6CE;
+
+  --primary-color-900: hsl(25, 35%, 10%);   // Darker
+  --primary-color-800: hsl(25, 35%, 20%);
+  --primary-color-700: hsl(25, 35%, 30%);
+  --primary-color-600: hsl(25, 35%, 40%);
+  --primary-color-500: hsl(25, 35%, 50%);   // Base color
+  --primary-color-400: hsl(25, 35%, 60%);
+  --primary-color-300: hsl(25, 35%, 70%);
+  --primary-color-200: hsl(25, 35%, 80%);
+  --primary-color-100: hsl(25, 35%, 90%);   // Lighter
+
+  --secondary-color: #62271D;
+  --secondary-color-900: hsl(18, 75%, 10%);  // Darker
+  --secondary-color-800: hsl(18, 75%, 20%);
+  --secondary-color-700: hsl(18, 75%, 30%);
+  --secondary-color-600: hsl(18, 75%, 40%);
+  --secondary-color-500: hsl(18, 75%, 50%);  // Base color
+  --secondary-color-400: hsl(18, 75%, 60%);
+  --secondary-color-300: hsl(18, 75%, 70%);
+  --secondary-color-200: hsl(18, 75%, 80%);
+  --secondary-color-100: hsl(18, 75%, 90%);  // Lighter
 
   // darkmode toggle
   --show-in-dark-mode: block;

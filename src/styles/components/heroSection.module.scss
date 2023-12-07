@@ -2,10 +2,14 @@
   width: 100%;
   text-align: center;
   margin-top: var(--margin-lg);
-  margin-bottom: var(--margin-lg);
+  margin-bottom: var(--margin-xxl);
 }
 
 .hero__section__text {
   margin-top: var(--margin-md);
   font-size: var(--font-size-xxl);
+}
+
+.hero__section__subtext {
+  margin-bottom: var(--margin-md);
 }
