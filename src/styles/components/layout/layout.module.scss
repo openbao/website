@@ -1,3 +1,9 @@
 .first__gradient {
   background: linear-gradient(180deg, var(--secondary-color) 0%, var(--dark-color) 100%);
 }
+
+.home__heading__h2 {
+  font-size: var(--font-size-xxl);
+  font-weight: bold;
+  margin-bottom: var(--margin-lg);
+}

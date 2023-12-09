@@ -1,4 +1,4 @@
-import styles from '@/styles/components/button/button.module.scss'
+import styles from '@/styles/button.module.scss'
 import React, { ReactNode } from 'react'
 
 interface Props {

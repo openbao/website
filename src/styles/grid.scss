@@ -12,6 +12,18 @@ $xs: var(--xs--container--width);
   flex-wrap: wrap;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.single__column {
+  flex: 1 1 100%;
+  padding: var(--padding-base);
+}
+
 .container {
   @include container($xl);
 
