@@ -12,6 +12,7 @@ export default function Cardgroup(cards: Props) {
       {cards.cards.map(card => {
         return (
           <Card
+            key={card.title}
             title={card.title}
             description={card.description}
             icon={card.icon}

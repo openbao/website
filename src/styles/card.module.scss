@@ -1,2 +1,43 @@
 .card {
+  padding: var(--padding-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: linear-gradient(153deg, var(--secondary-color) 9.01%, var(--dark-color) 74.26%); // TODO -- should probably be a variable
+  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.40);
+
+}
+
+.card__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: var(--margin-base);
+  width: 100%;
+  max-width: 300px;
+  svg {
+    height:30px;
+    margin-right: var(--margin-base);
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+}
+
+.card__content {
+  display: flex;
+  flex-wrap: wrap;
+    margin-bottom: 0;
+    max-width: 300px;
+}
+
+.card__content__title{
+  font-size: var(--font-size-lg);
+  font-weight: normal;
+  margin-bottom: var(--margin-base);
+}
+
+.card__content__description {
+  font-size: var(--font-size-sm);
 }

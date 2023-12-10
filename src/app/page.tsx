@@ -3,6 +3,7 @@ import HeroSection from '@/components/HeroSection/HeroSection'
 import Navbar from '@/components/Navbar/Navbar'
 import style from '@/styles/components/layout/layout.module.scss'
 
+import { faLock } from '@fortawesome/free-solid-svg-icons'
 export default function Home() {
   return (
     <>
@@ -22,9 +23,42 @@ export default function Home() {
           <div className="single__column">
             <CardGroup
               cards={[
-                { title: 'test', description: 'description', icon: 'icon' },
-                { title: 'test', description: 'description', icon: 'icon' },
-                { title: 'test', description: 'description', icon: 'icon' },
+                {
+                  title: 'We got it on lock!',
+                  description:
+                    'This is some filler text to be reused throughout everything. Feel free to add more.',
+                  icon: faLock,
+                },
+                {
+                  title: 'We got it on lock!2',
+                  description:
+                    'This is some filler text to be reused throughout everything. Feel free to add more.',
+                  icon: faLock,
+                },
+                {
+                  title: 'We got it on lock!3',
+                  description:
+                    'This is some filler text to be reused throughout everything. Feel free to add more.',
+                  icon: faLock,
+                },
+                {
+                  title: 'We got it on lock!4',
+                  description:
+                    'This is some filler text to be reused throughout everything. Feel free to add more.',
+                  icon: faLock,
+                },
+                {
+                  title: 'We got it on lock!5',
+                  description:
+                    'This is some filler text to be reused throughout everything. Feel free to add more.',
+                  icon: faLock,
+                },
+                {
+                  title: 'We got it on lock!6',
+                  description:
+                    'This is some filler text to be reused throughout everything. Feel free to add more.',
+                  icon: faLock,
+                },
               ]}
             />
           </div>
