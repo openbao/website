@@ -3,6 +3,8 @@
 - light mode colors
 - navbar mobile
 - cards mobile
+- fix padding all around
+- fix margins all around
 
 # Features
 - link up nav icons
@@ -16,3 +18,4 @@
 - sitemap
 - robots.txt
 - analytics?
+- site title and description

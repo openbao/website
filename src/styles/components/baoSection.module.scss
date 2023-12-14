@@ -1,0 +1,14 @@
+.bao__section {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: var(--margin-base);
+  justify-content: center;
+  margin-top: var(--margin-xxl)
+}
+
+.bao__section__left{
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+}
+

@@ -39,10 +39,19 @@ h5 {
   font-weight: bold;
 }
 
-
+.main__title__h2 {
+  font-size: var(--font-size-xxl);
+  font-weight: bold;
+  margin-bottom: var(--margin-lg);
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+section {
+  padding-top: var(--padding-lg);
+  padding-bottom: var(--padding-lg);
 }
 
 
@@ -54,3 +63,43 @@ h5 {
   display: var(--show-in-light-mode)
 }
 
+
+// Spacing
+
+$spacing-sizes: (
+  xs: var(--margin-xs),
+  sm: var(--margin-sm),
+  md: var(--margin-md),
+  lg: var(--margin-lg),
+  xl: var(--margin-xl),
+  xxl: var(--margin-xxl),
+  xxxl: var(--margin-xxl),
+);
+
+@each $size, $value in $spacing-sizes {
+  .mt-#{$size} {
+    margin-top: $value;
+  }
+
+  .mb-#{$size} {
+    margin-bottom: $value;
+  }
+
+  .ml-#{$size} {
+    margin-left: $value;
+  }
+
+  .mr-#{$size} {
+    margin-right: $value;
+  }
+
+  .mx-#{$size} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+
+  .my-#{$size} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+}

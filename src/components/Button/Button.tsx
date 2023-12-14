@@ -2,13 +2,20 @@ import styles from '@/styles/button.module.scss'
 import React, { ReactNode } from 'react'
 
 interface Props {
+  className?: string
   children?: ReactNode
   onClick?: () => void
   variant?: string
   size?: string
 }
 
-export default function Button({ children, onClick, variant, size }: Props) {
+export default function Button({
+  children,
+  onClick,
+  variant,
+  size,
+  className,
+}: Props) {
   const computeStyles = [styles.button]
 
   if (size) {
@@ -17,6 +24,10 @@ export default function Button({ children, onClick, variant, size }: Props) {
 
   if (variant) {
     computeStyles.push(styles[`btn--${variant}`])
+  }
+
+  if (className) {
+    computeStyles.push(className)
   }
 
   return (
