@@ -3,11 +3,46 @@
 
 
 :root {
-  --background: white;
-  --text-primary: black;
-  --text-secondary: royalblue;
-  --accent: purple;
+  --background-color: #ffffff;
+  --dark-color: #000000;
+  --light-color: #e0e0e0;
+  --primary-color: #FFD3BB;
+  --secondary-color: #FFD3BB;
+  --accent-color-one: #62271D;
+  --font-color: #000000;
 
+  --dark-color-900: hsl(0, 0%, 10%);   // Darker
+  --dark-color-800: hsl(0, 0%, 20%);
+  --dark-color-700: hsl(0, 0%, 30%);
+  --dark-color-600: hsl(0, 0%, 40%);
+  --dark-color-500: hsl(0, 0%, 50%);   // Base color
+  --dark-color-400: hsl(0, 0%, 60%);
+  --dark-color-300: hsl(0, 0%, 70%);
+  --dark-color-200: hsl(0, 0%, 80%);
+  --dark-color-100: hsl(0, 0%, 90%);   // Lighter
+
+  --primary-color: #000000;
+
+  --primary-color-900: hsl(25, 35%, 10%);   // Darker
+  --primary-color-800: hsl(25, 35%, 20%);
+  --primary-color-700: hsl(25, 35%, 30%);
+  --primary-color-600: hsl(25, 35%, 40%);
+  --primary-color-500: hsl(25, 35%, 50%);   // Base color
+  --primary-color-400: hsl(25, 35%, 60%);
+  --primary-color-300: hsl(25, 35%, 70%);
+  --primary-color-200: hsl(25, 35%, 80%);
+  --primary-color-100: hsl(25, 35%, 90%);   // Lighter
+
+  --secondary-color: #FFD3BB;
+  --secondary-color-900: hsl(18, 75%, 10%);  // Darker
+  --secondary-color-800: hsl(18, 75%, 20%);
+  --secondary-color-700: hsl(18, 75%, 30%);
+  --secondary-color-600: hsl(18, 75%, 40%);
+  --secondary-color-500: hsl(18, 75%, 50%);  // Base color
+  --secondary-color-400: hsl(18, 75%, 60%);
+  --secondary-color-300: hsl(18, 75%, 70%);
+  --secondary-color-200: hsl(18, 75%, 80%);
+  --secondary-color-100: hsl(18, 75%, 90%);  // Lighter
   // darkmode toggle
   --show-in-dark-mode: none;
   --show-in-light-mode: block;
@@ -62,9 +97,8 @@
 
 }
 [data-theme='dark'] {
-  --dark-color: #151514;
+  --background-color: #151514;
   --light-color: #ffffff;
-  --primary-color: #E5D6CE;
   --secondary-color: #62271D;
   --accent-color-one: #FFD3BB;
 
@@ -103,7 +137,10 @@
   --secondary-color-200: hsl(18, 75%, 80%);
   --secondary-color-100: hsl(18, 75%, 90%);  // Lighter
 
+  --font-color: #ffffff;
+
   // darkmode toggle
   --show-in-dark-mode: block;
   --show-in-light-mode: none;
+
 }

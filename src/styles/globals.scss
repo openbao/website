@@ -3,8 +3,8 @@
 @import './grid.scss';
 
 body {
-  background-color: var(--dark-color);
-  color: var(--light-color);
+  background-color: var(--background-color);
+  color: var(--font-color);
   font-family: var(--font-family-one);
 }
 

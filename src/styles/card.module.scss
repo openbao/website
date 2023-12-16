@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: linear-gradient(153deg, var(--secondary-color) 9.01%, var(--dark-color) 74.26%); // TODO -- should probably be a variable
+  background: linear-gradient(153deg, var(--secondary-color) 9.01%, var(--background-color) 74.26%); // TODO -- should probably be a variable
   box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.40);
 
 }
