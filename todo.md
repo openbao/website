@@ -7,6 +7,8 @@
 - fix margins all around
 - fix spacing between elements, they are too cramped between sections
 - consolidate css files and organize them better, currently a little chaotic
+- replace inline styles in icon.tsx with css classes
+- renmame first gradient css class and make it reuseable
 
 # Features
 - link up nav icons
@@ -14,6 +16,7 @@
 - build out or find a faq section component
 - figure out if logocard component will display logos or text and update that to work
 - upgrade nextjs version to newest
+- make a card section component to follow the example of the other ones
 
 # SEO / accessibility
 - accessibility stuff

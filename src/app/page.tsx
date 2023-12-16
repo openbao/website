@@ -1,4 +1,3 @@
-import Button from '@/components/Button/Button'
 import CardGroup from '@/components/CardGroup/CardGroup'
 import HeroSection from '@/components/HeroSection/HeroSection'
 import Navbar from '@/components/Navbar/Navbar'
@@ -7,11 +6,13 @@ import BaoSection from '@/components/BaoSection/BaoSection'
 import { cardGroupItems } from '@/constants/cardGroupItems'
 import FAQSection from '@/components/FAQSection/FAQSection'
 import SupportSection from '@/components/SuipportSection/SupportSection'
+import HelpOutSection from '@/components/HelpOutSection/HelpOutSection'
+import BlogSection from '@/components/BlogSection/BlogSection'
 
 export default function Home() {
   return (
     <>
-      <div className={style.first__gradient}>
+      <div className={style.top__down__red__gradient}>
         <Navbar />
         <div className="container">
           <HeroSection />
@@ -33,6 +34,19 @@ export default function Home() {
         <section>
           <SupportSection />
         </section>
+      </div>
+      <div className={style.top__down__red__gradient}>
+        <section>
+          <HelpOutSection />
+        </section>
+      </div>
+      <div className="container">
+        <section>
+          <BlogSection />
+        </section>
+      </div>
+      <div className={style.bottom__up__red__gradient}>
+        <Navbar />
       </div>
     </>
   )

@@ -1,4 +1,8 @@
-.first__gradient {
+.top__down__red__gradient {
   background: linear-gradient(180deg, var(--secondary-color) 0%, var(--dark-color) 100%);
 }
 
+
+.bottom__up__red__gradient {
+  background: linear-gradient(0deg, var(--secondary-color) 0%, var(--dark-color) 100%);
+}

@@ -1,0 +1,22 @@
+.help__out__section {
+  padding-top: var(--padding-xxl);
+  padding-bottom: var(--padding-xxl);
+}
+.help__out__section__group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: var(--margin-xxl);
+}
+.help__out__section__item {
+  display: flex;
+  align-items: center;
+  margin-top: var(--margin-lg);
+}
+
+.help__out__section__item__title {
+  margin-left: var(--margin-md);
+  font-size: var(--font-size-md);
+}
+.help__out__section__item__icon {
+  max-width: 21px;
+}
