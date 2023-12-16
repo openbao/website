@@ -1,0 +1,18 @@
+.faq__section {
+  background: linear-gradient(180deg, rgba(153, 153, 150, 0.11) 0%, rgba(41, 41, 40, 0.00) 52.46%);
+  padding-top: var(--padding-xxl);
+  padding-bottom: var(--padding-xxl);
+  border-bottom: solid 1px var(--dark-color-800);
+}
+
+.faq__section__title {
+  flex: 1 1 100%;
+}
+
+.faq__section__actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: var(--margin-lg);
+}

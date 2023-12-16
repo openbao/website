@@ -47,11 +47,12 @@ h5 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  width: 100%;
 }
 
 section {
-  padding-top: var(--padding-lg);
-  padding-bottom: var(--padding-lg);
+
+  width: 100%;
 }
 
 
@@ -66,7 +67,7 @@ section {
 
 // Spacing
 
-$spacing-sizes: (
+$margin-spacing-sizes: (
   xs: var(--margin-xs),
   sm: var(--margin-sm),
   md: var(--margin-md),
@@ -74,9 +75,10 @@ $spacing-sizes: (
   xl: var(--margin-xl),
   xxl: var(--margin-xxl),
   xxxl: var(--margin-xxl),
+  0: 0,
 );
 
-@each $size, $value in $spacing-sizes {
+@each $size, $value in $margin-spacing-sizes {
   .mt-#{$size} {
     margin-top: $value;
   }
@@ -101,5 +103,44 @@ $spacing-sizes: (
   .my-#{$size} {
     margin-top: $value;
     margin-bottom: $value;
+  }
+}
+
+$padding-spacing-sizes: (
+  xs: var(--margin-xs),
+  sm: var(--margin-sm),
+  md: var(--margin-md),
+  lg: var(--margin-lg),
+  xl: var(--margin-xl),
+  xxl: var(--margin-xxl),
+  xxxl: var(--margin-xxl),
+  0: 0,
+);
+
+@each $size, $value in $padding-spacing-sizes {
+  .pt-#{$size} {
+    padding-top: $value;
+  }
+
+  .pb-#{$size} {
+    padding-bottom: $value;
+  }
+
+  .pl-#{$size} {
+    padding-left: $value;
+  }
+
+  .pr-#{$size} {
+    padding-right: $value;
+  }
+
+  .px-#{$size} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+
+  .py-#{$size} {
+    padding-top: $value;
+    padding-bottom: $value;
   }
 }

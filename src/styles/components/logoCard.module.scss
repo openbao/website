@@ -1,0 +1,18 @@
+.logo__card {
+  padding-bottom: var(--padding-sm);
+  margin-bottom: var(--margin-sm);
+  border-bottom: solid 1px var(--dark-color-800)
+}
+
+.logo__card__title {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-md);
+  margin-bottom: var(--margin-sm);
+  margin-top: var(--margin-sm);
+}
+
+.logo__card__description {
+  margin-bottom: var(--margin-sm);
+  margin-top: var(--margin-sm);
+  font-size: var(--font-size-sm);
+}

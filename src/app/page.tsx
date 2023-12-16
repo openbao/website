@@ -3,8 +3,11 @@ import CardGroup from '@/components/CardGroup/CardGroup'
 import HeroSection from '@/components/HeroSection/HeroSection'
 import Navbar from '@/components/Navbar/Navbar'
 import style from '@/styles/components/layout/layout.module.scss'
-import BaoSecction from '@/components/BaoSection/BaoSection'
+import BaoSection from '@/components/BaoSection/BaoSection'
 import { cardGroupItems } from '@/constants/cardGroupItems'
+import FAQSection from '@/components/FAQSection/FAQSection'
+import SupportSection from '@/components/SuipportSection/SupportSection'
+
 export default function Home() {
   return (
     <>
@@ -20,7 +23,15 @@ export default function Home() {
           <CardGroup cards={cardGroupItems} />
         </section>
         <section>
-          <BaoSecction />
+          <BaoSection />
+        </section>
+      </div>
+      <section className={'pb-0'}>
+        <FAQSection />
+      </section>
+      <div className="container">
+        <section>
+          <SupportSection />
         </section>
       </div>
     </>

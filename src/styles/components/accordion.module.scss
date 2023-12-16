@@ -1,0 +1,27 @@
+.accordion__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: var(--padding-lg);
+  margin-bottom: var(--margin-lg);
+  border-bottom: solid 1px var(--dark-color-800)
+}
+.accordion__item__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  h3 {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    margin: 0;
+  }
+}
+
+
+.accordion__item__description {
+  margin-top: var(--margin-md);
+  font-size: var(--font-size-md);
+}

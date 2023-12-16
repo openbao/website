@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/components/baoSection.module.scss'
 import Button from '../Button/Button'
 
-export default function BaoSecction() {
+export default function BaoSection() {
   return (
     <div className={styles.bao__section}>
       <div className={styles.bao__section__left}>
@@ -25,7 +25,11 @@ export default function BaoSecction() {
           alt="secret"
           width={819}
           height={630}
-          layout="responsive"
+          sizes="100vw"
+          style={{
+            width: '100%',
+            height: 'auto',
+          }}
         />
       </div>
     </div>

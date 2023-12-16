@@ -1,0 +1,8 @@
+// todo - make more modular
+.logo__card__group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: var(--padding-lg);
+  margin-top: var(--margin-lg);
+  margin-bottom: var(--margin-lg);
+}
