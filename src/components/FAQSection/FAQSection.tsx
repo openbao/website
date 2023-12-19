@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import styles from '@/styles/components/faqSection.module.scss'
 import Accordion from '../Accordion/Accordion'
@@ -5,6 +6,7 @@ import Button from '../Button/Button'
 import { accordionData } from '@/constants/accordion'
 
 export default function FAQSection() {
+  const [expanded, setExpanded] = React.useState<number>(0)
   return (
     <div className={styles.faq__section}>
       <div className="container">
@@ -14,8 +16,9 @@ export default function FAQSection() {
         {accordionData.map((item, index) => (
           <Accordion
             key={index}
-            title={item.title}
-            description={item.description}
+            item={item}
+            isExpanded={index === expanded}
+            onClick={() => setExpanded(index)}
           />
         ))}
         <div className={styles.faq__section__actions}>

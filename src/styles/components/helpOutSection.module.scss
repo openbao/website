@@ -1,7 +1,9 @@
 .help__out__section {
   padding-top: var(--padding-xxl);
   padding-bottom: var(--padding-xxl);
+  width: 100%;
 }
+
 .help__out__section__group {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

@@ -8,7 +8,7 @@ export default function HelpOutSection() {
         <h2 className="main__title__h2">Want to help out?</h2>
         <div className={styles.help__out__section__group}>
           {items.map(item => (
-            <HelpOutSectionItem title={item.title} />
+            <HelpOutSectionItem key="item.title" title={item.title} />
           ))}
         </div>
       </div>

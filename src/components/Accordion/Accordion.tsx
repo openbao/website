@@ -1,15 +1,24 @@
-'use client'
-import React, { useState } from 'react'
 import styles from '@/styles/components/accordion.module.scss'
 import { AccordionItem } from '@/types/accordion'
 
-export default function Accordion(item: AccordionItem) {
-  const [isExpanded, setIsExpanded] = useState<boolean>(false)
+type AccordionProps = {
+  item: AccordionItem
+  isExpanded: boolean
+  onClick: () => void
+}
+export default function Accordion({item, isExpanded, onClick}: AccordionProps) {
   return (
     <>
       <div
         className={styles.accordion__item}
-        onClick={() => setIsExpanded(previsExpanded => !previsExpanded)}
+        onClick={onClick}
+        tabIndex={0}
+        role="button"
+        onKeyDown={e => {
+          if (e.key === 'Enter') {
+            onClick()
+          }
+        }}
       >
         <div
           className={styles.accordion__item__title}
