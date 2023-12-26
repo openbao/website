@@ -3,4 +3,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: var(--padding-lg);
+  margin-top: var(--margin-xxl);
+  margin-bottom: var(--margin-xxl);
 }

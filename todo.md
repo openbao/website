@@ -9,6 +9,7 @@
 - consolidate css files and organize them better, currently a little chaotic
 - replace inline styles in icon.tsx with css classes
 - renmame first gradient css class and make it reuseable
+- some layout shift in the last 2 sections 
 
 # Features
 - link up nav icons
@@ -28,3 +29,6 @@
 - site title and description
 - clean up H tags so that they make sense and not just being used for sizing because im lazy right now.
 - clean up favicon file structure, maybe put it in a folder and not all in root
+
+# Bugs 
+- When loading the page in incognito, it takes two clicks for the toggle light/dark mode to work

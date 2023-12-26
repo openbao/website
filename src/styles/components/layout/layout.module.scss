@@ -2,7 +2,11 @@
   background: linear-gradient(180deg, var(--secondary-color) 0%, var(--background-color) 100%);
 }
 
-
 .bottom__up__red__gradient {
   background: linear-gradient(0deg, var(--secondary-color) 0%, var(--background-color) 100%);
+}
+
+.margin__y--xxl {
+  margin-top: var(--margin-xxl);
+  margin-bottom: var(--margin-xxl);
 }

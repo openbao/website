@@ -11,10 +11,10 @@ export default function HeroSection() {
       <p className={styles.hero__section__subtext}>
         OpenBao, a secret project for the open source developer.
       </p>
-      <Button variant="outline" size="md">
+      <Button variant="outline" size="md" className="ma-sm">
         Read Manifesto
       </Button>
-      <Button variant="secondary" size="md">
+      <Button variant="secondary" size="md" className="ma-sm">
         Give It A Try
       </Button>
     </section>

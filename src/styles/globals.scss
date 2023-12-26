@@ -40,7 +40,7 @@ h5 {
 }
 
 .main__title__h2 {
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
   font-weight: bold;
   margin-bottom: var(--margin-lg);
 }
@@ -104,6 +104,10 @@ $margin-spacing-sizes: (
     margin-top: $value;
     margin-bottom: $value;
   }
+
+  .ma-#{$size} {
+    margin: $value;
+  }
 }
 
 $padding-spacing-sizes: (
@@ -142,5 +146,9 @@ $padding-spacing-sizes: (
   .py-#{$size} {
     padding-top: $value;
     padding-bottom: $value;
+  }
+
+  .pa-#{$size} {
+    padding: $value;
   }
 }

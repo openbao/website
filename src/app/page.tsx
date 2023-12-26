@@ -15,23 +15,25 @@ export default function Home() {
       <div className={style.top__down__red__gradient}>
         <Navbar />
         <div className="container">
-          <HeroSection />
+          <section className="my-xxl">
+            <HeroSection />
+          </section>
         </div>
       </div>
       <div className="container">
-        <section>
+        <section className="my-xxl">
           <h2 className="main__title__h2">What are we trying to do?</h2>
           <CardGroup cards={cardGroupItems} />
         </section>
-        <section>
+        <section className="mb-xxl">
           <BaoSection />
         </section>
       </div>
-      <section className={'pb-0'}>
+      <section className="pb-0">
         <FAQSection />
       </section>
       <div className="container">
-        <section>
+        <section className="mb-xxl">
           <SupportSection />
         </section>
       </div>
@@ -41,7 +43,7 @@ export default function Home() {
         </section>
       </div>
       <div className="container">
-        <section>
+        <section className="my-xxl">
           <BlogSection />
         </section>
       </div>
