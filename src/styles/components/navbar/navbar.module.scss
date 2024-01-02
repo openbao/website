@@ -1,3 +1,4 @@
+@import '@/styles/mobileVars.scss';
 .navbar {
   max-width: 1200px;
   margin: 0 auto;
@@ -8,10 +9,15 @@
 }
 
 .navbar__navigation__wrapper {
+  width: 100%;
   display: flex;
   align-items: center;
 }
-
+.navbar__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 .navbar__logo {
   font-size: var(--font-size-md);
   font-weight: bold;
@@ -45,5 +51,66 @@
     color: var(--primary-color);
     cursor: pointer;
     text-decoration: none;
+  }
+}
+
+
+// mobile
+
+.navbar__toggle {
+  display: none;
+}
+
+@media screen and (max-width: $mobile-sm) {
+  .navbar {
+    align-items: start;
+  }
+  .navbar__navigation__wrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .navbar__content {
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .navbar__content__active {
+    display: flex;
+  }
+
+  .navbar__menu {
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1 1 100%;
+    ul {
+      flex-wrap: wrap;
+      flex-direction: column;
+      flex: 1 1 100%;
+      margin-top: var(--margin-md);
+      li {
+        padding: var(--padding-sm)
+
+      }
+    }
+  }
+
+  .navbar__social {
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1 1 100%;
+    margin-top: var(--margin-md);
+  }
+
+  .navbar__toggle {
+    display: block;
+    position: absolute;
+    right: var(--margin-md);
+    top: var(--margin-md);
+    font-size: var(--font-size-md);
+    font-weight: bold;
+    color: var(--primary-color);
+    cursor: pointer;
   }
 }

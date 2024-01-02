@@ -48,7 +48,7 @@ export default function Home() {
         </section>
       </div>
       <div className={style.bottom__up__red__gradient}>
-        <Navbar />
+        footer todo{/* <Navbar /> */}
       </div>
     </>
   )
