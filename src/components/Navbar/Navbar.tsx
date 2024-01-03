@@ -1,6 +1,6 @@
 'use client'
 import styles from '@/styles/components/navbar/navbar.module.scss'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState } from 'react'
 import NavbarItems from './NavbarItems'
@@ -35,7 +35,11 @@ export default function Navbar() {
         className={styles.navbar__toggle}
         aria-expanded={isNavOpen}
       >
-        <FontAwesomeIcon width={20} height={20} icon={faBars} />
+        {!isNavOpen ? (
+          <FontAwesomeIcon width={20} height={20} icon={faBars} />
+        ) : (
+          <FontAwesomeIcon width={20} height={20} icon={faClose} />
+        )}
       </button>
     </nav>
   )

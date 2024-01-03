@@ -1,3 +1,5 @@
+@import '@/styles/mobileVars.scss';
+
 .help__out__section {
   padding-top: var(--padding-xxl);
   padding-bottom: var(--padding-xxl);
@@ -23,4 +25,15 @@
 }
 .help__out__section__item__icon {
   max-width: 21px;
+}
+
+
+
+
+@media screen and (max-width: $mobile-xs) {
+
+  .help__out__section__group {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 }

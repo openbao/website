@@ -1,3 +1,4 @@
+@import '@/styles/mobileVars.scss';
 // todo - make more modular
 .card__group {
   display: grid;
@@ -5,4 +6,18 @@
   grid-gap: var(--padding-lg);
   margin-top: var(--margin-xxl);
   margin-bottom: var(--margin-xxl);
+}
+
+@media screen and (max-width: $mobile-sm) {
+
+  .card__group {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+@media screen and (max-width: $mobile-xs) {
+
+  .card__group {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
