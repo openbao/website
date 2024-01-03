@@ -4,12 +4,12 @@
 
 :root {
   --background-color: #ffffff;
-  --dark-color: #000000;
+  --dark-color: #96635a;
   --light-color: #e0e0e0;
   --primary-color: #FFD3BB;
-  --secondary-color: #FFD3BB;
+  --secondary-color: #ffd3bb21;
   --accent-color-one: #62271D;
-  --font-color: #000000;
+  --font-color: #2c2521;
 
   --dark-color-900: hsl(0, 0%, 10%);   // Darker
   --dark-color-800: hsl(0, 0%, 20%);
@@ -21,7 +21,7 @@
   --dark-color-200: hsl(0, 0%, 80%);
   --dark-color-100: hsl(0, 0%, 90%);   // Lighter
 
-  --primary-color: #000000;
+  --primary-color: #2c2521;
 
   --primary-color-900: hsl(25, 35%, 10%);   // Darker
   --primary-color-800: hsl(25, 35%, 20%);
@@ -67,7 +67,7 @@
   --font-weight-bold: 700;
   --font-weight-extra-bold: 800;
   // Padding
-  --base-padding: 14px;
+  --base-padding: 1rem;
 
   --padding-xs: calc(var(--base-padding) * 0.3);
   --padding-sm: calc(var(--base-padding) * 0.5);
@@ -78,7 +78,7 @@
   --padding-xxl: calc(var(--base-padding) * 6);
 
   // Margin
-  --base-margin: 14px;
+  --base-margin: 1rem;
 
   --margin-xs: calc(var(--base-margin) * 0.3);
   --margin-sm: calc(var(--base-margin) * 0.5);

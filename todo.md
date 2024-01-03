@@ -10,6 +10,7 @@
 - replace inline styles in icon.tsx with css classes
 - renmame first gradient css class and make it reuseable
 - some layout shift in the last 2 sections 
+- replace hard button css color vars with vars like --button-color-etc and have dark/light dictate those
 
 # Features
 - link up nav icons
@@ -18,6 +19,7 @@
 - figure out if logocard component will display logos or text and update that to work
 - upgrade nextjs version to newest
 - make a card section component to follow the example of the other ones
+- rename items in footer and nav component to be reuseable
 
 # SEO / accessibility
 - accessibility stuff

@@ -8,6 +8,7 @@ import FAQSection from '@/components/FAQSection/FAQSection'
 import SupportSection from '@/components/SuipportSection/SupportSection'
 import HelpOutSection from '@/components/HelpOutSection/HelpOutSection'
 import BlogSection from '@/components/BlogSection/BlogSection'
+import Footer from '@/components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -48,7 +49,7 @@ export default function Home() {
         </section>
       </div>
       <div className={style.bottom__up__red__gradient}>
-        footer todo{/* <Navbar /> */}
+        <Footer />
       </div>
     </>
   )
