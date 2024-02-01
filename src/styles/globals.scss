@@ -8,7 +8,6 @@ body {
   font-family: var(--font-family-one);
 }
 
-
 p {
   font-size: var(--font-size-base);
   line-height: 1.5;
@@ -40,21 +39,22 @@ h5 {
 }
 
 .main__title__h2 {
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
   font-weight: bold;
   margin-bottom: var(--margin-lg);
 }
+
 .container {
+  box-sizing: border-box;
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+  padding: 0 var(--padding-md);
 }
 
 section {
-
   width: 100%;
 }
-
 
 .switch-to-light {
   display: var(--show-in-dark-mode);
@@ -63,7 +63,6 @@ section {
 .switch-to-dark {
   display: var(--show-in-light-mode)
 }
-
 
 // Spacing
 
@@ -104,6 +103,10 @@ $margin-spacing-sizes: (
     margin-top: $value;
     margin-bottom: $value;
   }
+
+  .ma-#{$size} {
+    margin: $value;
+  }
 }
 
 $padding-spacing-sizes: (
@@ -142,5 +145,9 @@ $padding-spacing-sizes: (
   .py-#{$size} {
     padding-top: $value;
     padding-bottom: $value;
+  }
+
+  .pa-#{$size} {
+    padding: $value;
   }
 }

@@ -1,3 +1,5 @@
+@import '@/styles/mobileVars.scss';
+
 .blog__section {
   margin-top: var(--margin-xxl);
   margin-bottom: var(--margin-xxl);
@@ -24,4 +26,13 @@
 .blog__section__content__blurb {
   font-size: var(--font-size-sm);
   margin-bottom: var(--margin-md);
+}
+
+
+@media screen and (max-width: $mobile-sm) {
+
+  .blog__section__content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 }

@@ -9,6 +9,8 @@
 - consolidate css files and organize them better, currently a little chaotic
 - replace inline styles in icon.tsx with css classes
 - renmame first gradient css class and make it reuseable
+- some layout shift in the last 2 sections 
+- replace hard button css color vars with vars like --button-color-etc and have dark/light dictate those
 
 # Features
 - link up nav icons
@@ -17,6 +19,7 @@
 - figure out if logocard component will display logos or text and update that to work
 - upgrade nextjs version to newest
 - make a card section component to follow the example of the other ones
+- rename items in footer and nav component to be reuseable
 
 # SEO / accessibility
 - accessibility stuff
@@ -28,3 +31,6 @@
 - site title and description
 - clean up H tags so that they make sense and not just being used for sizing because im lazy right now.
 - clean up favicon file structure, maybe put it in a folder and not all in root
+
+# Bugs 
+- When loading the page in incognito, it takes two clicks for the toggle light/dark mode to work

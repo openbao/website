@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import React from 'react'
 import styles from '@/styles/components/faqSection.module.scss'
 import Accordion from '../Accordion/Accordion'
@@ -11,7 +11,7 @@ export default function FAQSection() {
     <div className={styles.faq__section}>
       <div className="container">
         <div className={styles.faq__section__title}>
-          <h2 className="main__title__h2 mb-xxl">Secrets we can share</h2>
+          <h2 className="main__title__h2 my-xxl">Secrets we can share</h2>
         </div>
         {accordionData.map((item, index) => (
           <Accordion

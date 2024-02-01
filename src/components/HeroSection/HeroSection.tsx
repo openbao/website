@@ -9,12 +9,13 @@ export default function HeroSection() {
       <LinuxFountation />
       <h1 className={styles.hero__section__text}>Let Us Keep Your Secrets</h1>
       <p className={styles.hero__section__subtext}>
-        OpenBao, a secret project for the open source developer.
+        OpenBao, a secret project for the open source developer. (All copy is
+        currently placeholder)
       </p>
-      <Button variant="outline" size="md">
+      <Button variant="outline" size="md" className="ma-sm">
         Read Manifesto
       </Button>
-      <Button variant="secondary" size="md">
+      <Button variant="secondary" size="md" className="ma-sm">
         Give It A Try
       </Button>
     </section>
